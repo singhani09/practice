@@ -1,0 +1,49 @@
+#parent{
+    
+    border: 1px solid blue;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    border: none;
+    border-radius: 20px
+    ;
+    background-size: 100%
+    100%
+    ;
+    background-image: url("https://img-cdn.publive.online/fit-in/853x480/filters:format(webp)/trade-brains/media/media_files/2026/09/11/cricket-stadium-2026-09-11-16-21-22.jpg");
+    
+
+}
+.child1,.child2{
+    border: 2px solid red;
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%
+    ;
+
+    
+    
+}
+.child1{
+    background-size: 100% 100%
+    ;
+    background-image: url("https://i.pinimg.com/736x/dc/dd/f2/dcddf2c68b12648a99119b922b9996d9.jpg");
+    border-radius: 20%
+    ;
+    border: none
+    ;
+}
+.child2{
+    border-radius: 50px;
+    ;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original");
+    background-size: 100%
+    100%
+    ;
+    border: none;
+
+}
+

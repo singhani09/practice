@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nested Table</title>
+</head>
+<body>
+
+<h2 align="center">Using TABLES in Websites</h2>
+
+<table border="1" width="90%" align="center" cellspacing="4">
+  <caption>Caption-Nested Table</caption>
+
+  <tr>
+    <th width="15%">Column 1</th>
+    <th>Column 2</th>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="center">Colspan Column</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2" align="center">Rowspan Cell</td>
+    <td align="center">Cell 2</td>
+  </tr>
+
+  <tr>
+    <td>
+      <table border="1" width="100%"  cellspacing="6">
+        <tr>
+          <th>Inner Column Heading 1</th>
+          <th>Inner Column Heading 2</th>
+        </tr>
+        <tr>
+          <td >
+            <table border="1" width="100%"  cellspacing="6">
+              <tr>
+                <th>Inner Most Column Heading 1</th>
+                <th>Inner Most Column Heading 2</th>
+              </tr>
+              <tr>
+                <td height="70" align="center">Innermost Data Cell 1</td>
+                <td align="center">Innermost Data Cell 2</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

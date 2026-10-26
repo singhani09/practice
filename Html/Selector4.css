@@ -1,0 +1,16 @@
+#parent{
+    border: 1px solid red
+
+    ;
+    height: 400px
+    ;
+}
+.child{
+    border: 1px dotted blue
+    ;
+    height: 50px
+    
+    ;
+    width: 20px
+    ;
+}
